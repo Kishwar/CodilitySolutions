@@ -9,5 +9,9 @@
 #define CyclicRotation_hpp
 
 #include <stdio.h>
+#include <vector>
+#include <algorithm>
+
+std::vector<int> CyclicRotationsolution(std::vector<int> &A, int K);
 
 #endif /* CyclicRotation_hpp */
