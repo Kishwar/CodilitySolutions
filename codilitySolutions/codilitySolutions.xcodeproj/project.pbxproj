@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A8506DB825BD90C300509120 /* OddOccurrencesInArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8506DB625BD90C300509120 /* OddOccurrencesInArray.cpp */; };
+		A8506DBC25BD9BD100509120 /* FrogJmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8506DBA25BD9BD100509120 /* FrogJmp.cpp */; };
 		A8D3CEAC25BD68CB0048A9C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D3CEAB25BD68CB0048A9C0 /* main.cpp */; };
 		A8D3CEB525BD68F10048A9C0 /* BinaryGap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D3CEB325BD68F10048A9C0 /* BinaryGap.cpp */; };
 		A8D3CEB925BD69D40048A9C0 /* CyclicRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D3CEB725BD69D40048A9C0 /* CyclicRotation.cpp */; };
@@ -28,6 +29,8 @@
 /* Begin PBXFileReference section */
 		A8506DB625BD90C300509120 /* OddOccurrencesInArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OddOccurrencesInArray.cpp; sourceTree = "<group>"; };
 		A8506DB725BD90C300509120 /* OddOccurrencesInArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OddOccurrencesInArray.hpp; sourceTree = "<group>"; };
+		A8506DBA25BD9BD100509120 /* FrogJmp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FrogJmp.cpp; sourceTree = "<group>"; };
+		A8506DBB25BD9BD100509120 /* FrogJmp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FrogJmp.hpp; sourceTree = "<group>"; };
 		A8D3CEA825BD68CB0048A9C0 /* codilitySolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codilitySolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D3CEAB25BD68CB0048A9C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A8D3CEB325BD68F10048A9C0 /* BinaryGap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryGap.cpp; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 				A8D3CEB825BD69D40048A9C0 /* CyclicRotation.hpp */,
 				A8506DB625BD90C300509120 /* OddOccurrencesInArray.cpp */,
 				A8506DB725BD90C300509120 /* OddOccurrencesInArray.hpp */,
+				A8506DBA25BD9BD100509120 /* FrogJmp.cpp */,
+				A8506DBB25BD9BD100509120 /* FrogJmp.hpp */,
 			);
 			path = codilitySolutions;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8506DBC25BD9BD100509120 /* FrogJmp.cpp in Sources */,
 				A8D3CEAC25BD68CB0048A9C0 /* main.cpp in Sources */,
 				A8D3CEB925BD69D40048A9C0 /* CyclicRotation.cpp in Sources */,
 				A8D3CEB525BD68F10048A9C0 /* BinaryGap.cpp in Sources */,
