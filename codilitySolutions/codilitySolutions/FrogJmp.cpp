@@ -6,7 +6,6 @@
 //
 
 #include "FrogJmp.hpp"
-
 #include <math.h>
 
 int FrogJmpsolution(int X, int Y, int D) {
