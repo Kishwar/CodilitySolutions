@@ -28,8 +28,6 @@ std::vector<int> CyclicRotationsolution(std::vector<int> &A, int K) {
         J = static_cast<int>(A.size() - (K % A.size()));
     }
 
-    for(int i=0; i<J; i++) {
-        std::rotate(A.begin(), A.begin() + 1, A.end());
-    }
+    std::rotate(A.begin(), A.begin() + J, A.end());
     return A;
 }
