@@ -59,6 +59,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8506DCA25BEAF7300509120 /* Iterations */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3CEB325BD68F10048A9C0 /* BinaryGap.cpp */,
+				A8D3CEB425BD68F10048A9C0 /* BinaryGap.hpp */,
+			);
+			path = Iterations;
+			sourceTree = "<group>";
+		};
+		A8506DCB25BEAFBC00509120 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				A8506DB625BD90C300509120 /* OddOccurrencesInArray.cpp */,
+				A8506DB725BD90C300509120 /* OddOccurrencesInArray.hpp */,
+				A8D3CEB725BD69D40048A9C0 /* CyclicRotation.cpp */,
+				A8D3CEB825BD69D40048A9C0 /* CyclicRotation.hpp */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		A8506DCC25BEB06000509120 /* TimeComplexity */ = {
+			isa = PBXGroup;
+			children = (
+				A8506DBE25BDA04C00509120 /* PermMissingElem.cpp */,
+				A8506DC225BDFF7800509120 /* TapeEquilibrium.cpp */,
+				A8506DC325BDFF7800509120 /* TapeEquilibrium.hpp */,
+				A8506DBF25BDA04C00509120 /* PermMissingElem.hpp */,
+				A8506DBA25BD9BD100509120 /* FrogJmp.cpp */,
+				A8506DBB25BD9BD100509120 /* FrogJmp.hpp */,
+			);
+			path = TimeComplexity;
+			sourceTree = "<group>";
+		};
+		A8506DCD25BEB13500509120 /* CountingElements */ = {
+			isa = PBXGroup;
+			children = (
+				A8506DC625BEADF100509120 /* PermCheck.cpp */,
+				A8506DC725BEADF100509120 /* PermCheck.hpp */,
+			);
+			path = CountingElements;
+			sourceTree = "<group>";
+		};
 		A8D3CE9F25BD68CB0048A9C0 = {
 			isa = PBXGroup;
 			children = (
@@ -78,21 +120,11 @@
 		A8D3CEAA25BD68CB0048A9C0 /* codilitySolutions */ = {
 			isa = PBXGroup;
 			children = (
+				A8506DCD25BEB13500509120 /* CountingElements */,
+				A8506DCC25BEB06000509120 /* TimeComplexity */,
+				A8506DCB25BEAFBC00509120 /* Array */,
+				A8506DCA25BEAF7300509120 /* Iterations */,
 				A8D3CEAB25BD68CB0048A9C0 /* main.cpp */,
-				A8D3CEB325BD68F10048A9C0 /* BinaryGap.cpp */,
-				A8D3CEB425BD68F10048A9C0 /* BinaryGap.hpp */,
-				A8D3CEB725BD69D40048A9C0 /* CyclicRotation.cpp */,
-				A8D3CEB825BD69D40048A9C0 /* CyclicRotation.hpp */,
-				A8506DB625BD90C300509120 /* OddOccurrencesInArray.cpp */,
-				A8506DB725BD90C300509120 /* OddOccurrencesInArray.hpp */,
-				A8506DBA25BD9BD100509120 /* FrogJmp.cpp */,
-				A8506DBB25BD9BD100509120 /* FrogJmp.hpp */,
-				A8506DBE25BDA04C00509120 /* PermMissingElem.cpp */,
-				A8506DBF25BDA04C00509120 /* PermMissingElem.hpp */,
-				A8506DC225BDFF7800509120 /* TapeEquilibrium.cpp */,
-				A8506DC325BDFF7800509120 /* TapeEquilibrium.hpp */,
-				A8506DC625BEADF100509120 /* PermCheck.cpp */,
-				A8506DC725BEADF100509120 /* PermCheck.hpp */,
 			);
 			path = codilitySolutions;
 			sourceTree = "<group>";
