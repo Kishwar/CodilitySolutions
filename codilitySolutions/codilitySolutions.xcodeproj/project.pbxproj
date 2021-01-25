@@ -11,6 +11,7 @@
 		A8506DBC25BD9BD100509120 /* FrogJmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8506DBA25BD9BD100509120 /* FrogJmp.cpp */; };
 		A8506DC025BDA04C00509120 /* PermMissingElem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8506DBE25BDA04C00509120 /* PermMissingElem.cpp */; };
 		A8506DC425BDFF7800509120 /* TapeEquilibrium.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8506DC225BDFF7800509120 /* TapeEquilibrium.cpp */; };
+		A8506DC825BEADF100509120 /* PermCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8506DC625BEADF100509120 /* PermCheck.cpp */; };
 		A8D3CEAC25BD68CB0048A9C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D3CEAB25BD68CB0048A9C0 /* main.cpp */; };
 		A8D3CEB525BD68F10048A9C0 /* BinaryGap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D3CEB325BD68F10048A9C0 /* BinaryGap.cpp */; };
 		A8D3CEB925BD69D40048A9C0 /* CyclicRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D3CEB725BD69D40048A9C0 /* CyclicRotation.cpp */; };
@@ -37,6 +38,8 @@
 		A8506DBF25BDA04C00509120 /* PermMissingElem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PermMissingElem.hpp; sourceTree = "<group>"; };
 		A8506DC225BDFF7800509120 /* TapeEquilibrium.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TapeEquilibrium.cpp; sourceTree = "<group>"; };
 		A8506DC325BDFF7800509120 /* TapeEquilibrium.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TapeEquilibrium.hpp; sourceTree = "<group>"; };
+		A8506DC625BEADF100509120 /* PermCheck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PermCheck.cpp; sourceTree = "<group>"; };
+		A8506DC725BEADF100509120 /* PermCheck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PermCheck.hpp; sourceTree = "<group>"; };
 		A8D3CEA825BD68CB0048A9C0 /* codilitySolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codilitySolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D3CEAB25BD68CB0048A9C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A8D3CEB325BD68F10048A9C0 /* BinaryGap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryGap.cpp; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				A8506DBF25BDA04C00509120 /* PermMissingElem.hpp */,
 				A8506DC225BDFF7800509120 /* TapeEquilibrium.cpp */,
 				A8506DC325BDFF7800509120 /* TapeEquilibrium.hpp */,
+				A8506DC625BEADF100509120 /* PermCheck.cpp */,
+				A8506DC725BEADF100509120 /* PermCheck.hpp */,
 			);
 			path = codilitySolutions;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8506DC825BEADF100509120 /* PermCheck.cpp in Sources */,
 				A8506DBC25BD9BD100509120 /* FrogJmp.cpp in Sources */,
 				A8D3CEAC25BD68CB0048A9C0 /* main.cpp in Sources */,
 				A8D3CEB925BD69D40048A9C0 /* CyclicRotation.cpp in Sources */,
