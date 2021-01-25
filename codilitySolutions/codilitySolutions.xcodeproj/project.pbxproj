@@ -15,6 +15,7 @@
 		A8506DD025BF5F5000509120 /* MissingInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8506DCE25BF5F5000509120 /* MissingInteger.cpp */; };
 		A8506DD525BF69CC00509120 /* MaxCounters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8506DD325BF69CC00509120 /* MaxCounters.cpp */; };
 		A8506DDA25BF737300509120 /* FrogRiverOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8506DD825BF737300509120 /* FrogRiverOne.cpp */; };
+		A8506DDF25BF782E00509120 /* CountDiv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8506DDD25BF782E00509120 /* CountDiv.cpp */; };
 		A8D3CEAC25BD68CB0048A9C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D3CEAB25BD68CB0048A9C0 /* main.cpp */; };
 		A8D3CEB525BD68F10048A9C0 /* BinaryGap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D3CEB325BD68F10048A9C0 /* BinaryGap.cpp */; };
 		A8D3CEB925BD69D40048A9C0 /* CyclicRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D3CEB725BD69D40048A9C0 /* CyclicRotation.cpp */; };
@@ -49,6 +50,8 @@
 		A8506DD425BF69CC00509120 /* MaxCounters.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxCounters.hpp; sourceTree = "<group>"; };
 		A8506DD825BF737300509120 /* FrogRiverOne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FrogRiverOne.cpp; sourceTree = "<group>"; };
 		A8506DD925BF737300509120 /* FrogRiverOne.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FrogRiverOne.hpp; sourceTree = "<group>"; };
+		A8506DDD25BF782E00509120 /* CountDiv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CountDiv.cpp; sourceTree = "<group>"; };
+		A8506DDE25BF782E00509120 /* CountDiv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CountDiv.hpp; sourceTree = "<group>"; };
 		A8D3CEA825BD68CB0048A9C0 /* codilitySolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codilitySolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D3CEAB25BD68CB0048A9C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A8D3CEB325BD68F10048A9C0 /* BinaryGap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryGap.cpp; sourceTree = "<group>"; };
@@ -116,6 +119,15 @@
 			path = CountingElements;
 			sourceTree = "<group>";
 		};
+		A8506DDC25BF747300509120 /* PrefixSums */ = {
+			isa = PBXGroup;
+			children = (
+				A8506DDD25BF782E00509120 /* CountDiv.cpp */,
+				A8506DDE25BF782E00509120 /* CountDiv.hpp */,
+			);
+			path = PrefixSums;
+			sourceTree = "<group>";
+		};
 		A8D3CE9F25BD68CB0048A9C0 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +147,7 @@
 		A8D3CEAA25BD68CB0048A9C0 /* codilitySolutions */ = {
 			isa = PBXGroup;
 			children = (
+				A8506DDC25BF747300509120 /* PrefixSums */,
 				A8506DCD25BEB13500509120 /* CountingElements */,
 				A8506DCC25BEB06000509120 /* TimeComplexity */,
 				A8506DCB25BEAFBC00509120 /* Array */,
@@ -201,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8506DC825BEADF100509120 /* PermCheck.cpp in Sources */,
+				A8506DDF25BF782E00509120 /* CountDiv.cpp in Sources */,
 				A8506DBC25BD9BD100509120 /* FrogJmp.cpp in Sources */,
 				A8D3CEAC25BD68CB0048A9C0 /* main.cpp in Sources */,
 				A8D3CEB925BD69D40048A9C0 /* CyclicRotation.cpp in Sources */,
