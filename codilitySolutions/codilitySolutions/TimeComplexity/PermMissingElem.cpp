@@ -9,7 +9,7 @@
 
 int PermMissingElemsolution(std::vector<int> &A) {
     
-    int M = A.size() +1;
+    int M = static_cast<int>((int)A.size()) +1;
 
     for(int i=0; i<A.size(); i++) {
         M = M ^ A[i] ^ (i+1);

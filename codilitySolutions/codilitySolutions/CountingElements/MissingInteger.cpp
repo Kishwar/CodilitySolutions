@@ -24,5 +24,5 @@ int solution(std::vector<int> &A) {
         }
     }
 
-    return A.size()+1;
+    return static_cast<int>(A.size())+1;
 }
