@@ -8,16 +8,15 @@
 #include <iostream>
 #include <vector>
 
-#include "TwoSum.hpp"
+#include "Valid_Parentheses.hpp"
 
 
 int main(int argc, const char * argv[]) {
 
-    std::vector<int> v = {1, 2, 3, 4};
+    bool r = isValidParentheses("[]{([])[][}][]");
+    std::string s = r == true ? "true" : "false";
     
-    for(auto a : twoSum(v, 6)) {
-        std::cout << a << std::endl;
-    }
+    std::cout << s << std::endl;
     
     return 0;
 }

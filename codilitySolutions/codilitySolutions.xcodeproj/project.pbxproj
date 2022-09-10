@@ -20,6 +20,7 @@
 		A8D3CEB525BD68F10048A9C0 /* BinaryGap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D3CEB325BD68F10048A9C0 /* BinaryGap.cpp */; };
 		A8D3CEB925BD69D40048A9C0 /* CyclicRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D3CEB725BD69D40048A9C0 /* CyclicRotation.cpp */; };
 		A8E40C3028CC9EC800E8BDD5 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8E40C2E28CC9EC800E8BDD5 /* TwoSum.cpp */; };
+		A8E40C3728CCF6AB00E8BDD5 /* Valid_Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8E40C3528CCF6AB00E8BDD5 /* Valid_Parentheses.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,8 @@
 		A8D3CEB825BD69D40048A9C0 /* CyclicRotation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CyclicRotation.hpp; sourceTree = "<group>"; };
 		A8E40C2E28CC9EC800E8BDD5 /* TwoSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
 		A8E40C2F28CC9EC800E8BDD5 /* TwoSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
+		A8E40C3528CCF6AB00E8BDD5 /* Valid_Parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Valid_Parentheses.cpp; sourceTree = "<group>"; };
+		A8E40C3628CCF6AB00E8BDD5 /* Valid_Parentheses.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Valid_Parentheses.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,7 @@
 		A8D3CEAA25BD68CB0048A9C0 /* codilitySolutions */ = {
 			isa = PBXGroup;
 			children = (
+				A8E40C3428CCF68C00E8BDD5 /* Valid Parentheses */,
 				A8E40C2D28CC9E8D00E8BDD5 /* Two Sum */,
 				A8506DDC25BF747300509120 /* PrefixSums */,
 				A8506DCD25BEB13500509120 /* CountingElements */,
@@ -168,6 +172,15 @@
 				A8E40C2F28CC9EC800E8BDD5 /* TwoSum.hpp */,
 			);
 			path = "Two Sum";
+			sourceTree = "<group>";
+		};
+		A8E40C3428CCF68C00E8BDD5 /* Valid Parentheses */ = {
+			isa = PBXGroup;
+			children = (
+				A8E40C3528CCF6AB00E8BDD5 /* Valid_Parentheses.cpp */,
+				A8E40C3628CCF6AB00E8BDD5 /* Valid_Parentheses.hpp */,
+			);
+			path = "Valid Parentheses";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +250,7 @@
 				A8506DB825BD90C300509120 /* OddOccurrencesInArray.cpp in Sources */,
 				A8506DC025BDA04C00509120 /* PermMissingElem.cpp in Sources */,
 				A8506DDA25BF737300509120 /* FrogRiverOne.cpp in Sources */,
+				A8E40C3728CCF6AB00E8BDD5 /* Valid_Parentheses.cpp in Sources */,
 				A8506DC425BDFF7800509120 /* TapeEquilibrium.cpp in Sources */,
 				A8506DD025BF5F5000509120 /* MissingInteger.cpp in Sources */,
 			);
