@@ -115,4 +115,9 @@ ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
          r = r->next;
      }
  }
+ 
+ codility result:
+ 
+ Runtime: 7 ms, faster than 88.14% of C++ online submissions for Merge Two Sorted Lists.
+ 
  **/
