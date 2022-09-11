@@ -21,6 +21,7 @@
 		A8D3CEB925BD69D40048A9C0 /* CyclicRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8D3CEB725BD69D40048A9C0 /* CyclicRotation.cpp */; };
 		A8E40C3028CC9EC800E8BDD5 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8E40C2E28CC9EC800E8BDD5 /* TwoSum.cpp */; };
 		A8E40C3728CCF6AB00E8BDD5 /* Valid_Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8E40C3528CCF6AB00E8BDD5 /* Valid_Parentheses.cpp */; };
+		A8E40C3C28CDD5BD00E8BDD5 /* Merge_Two_Sorted_Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8E40C3A28CDD5BD00E8BDD5 /* Merge_Two_Sorted_Lists.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +65,8 @@
 		A8E40C2F28CC9EC800E8BDD5 /* TwoSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
 		A8E40C3528CCF6AB00E8BDD5 /* Valid_Parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Valid_Parentheses.cpp; sourceTree = "<group>"; };
 		A8E40C3628CCF6AB00E8BDD5 /* Valid_Parentheses.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Valid_Parentheses.hpp; sourceTree = "<group>"; };
+		A8E40C3A28CDD5BD00E8BDD5 /* Merge_Two_Sorted_Lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Merge_Two_Sorted_Lists.cpp; sourceTree = "<group>"; };
+		A8E40C3B28CDD5BD00E8BDD5 /* Merge_Two_Sorted_Lists.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Merge_Two_Sorted_Lists.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,7 @@
 		A8D3CEAA25BD68CB0048A9C0 /* codilitySolutions */ = {
 			isa = PBXGroup;
 			children = (
+				A8E40C3928CDD59400E8BDD5 /* Merge_Sorted_Lists */,
 				A8E40C3428CCF68C00E8BDD5 /* Valid Parentheses */,
 				A8E40C2D28CC9E8D00E8BDD5 /* Two Sum */,
 				A8506DDC25BF747300509120 /* PrefixSums */,
@@ -181,6 +185,15 @@
 				A8E40C3628CCF6AB00E8BDD5 /* Valid_Parentheses.hpp */,
 			);
 			path = "Valid Parentheses";
+			sourceTree = "<group>";
+		};
+		A8E40C3928CDD59400E8BDD5 /* Merge_Sorted_Lists */ = {
+			isa = PBXGroup;
+			children = (
+				A8E40C3A28CDD5BD00E8BDD5 /* Merge_Two_Sorted_Lists.cpp */,
+				A8E40C3B28CDD5BD00E8BDD5 /* Merge_Two_Sorted_Lists.hpp */,
+			);
+			path = Merge_Sorted_Lists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 				A8506DB825BD90C300509120 /* OddOccurrencesInArray.cpp in Sources */,
 				A8506DC025BDA04C00509120 /* PermMissingElem.cpp in Sources */,
 				A8506DDA25BF737300509120 /* FrogRiverOne.cpp in Sources */,
+				A8E40C3C28CDD5BD00E8BDD5 /* Merge_Two_Sorted_Lists.cpp in Sources */,
 				A8E40C3728CCF6AB00E8BDD5 /* Valid_Parentheses.cpp in Sources */,
 				A8506DC425BDFF7800509120 /* TapeEquilibrium.cpp in Sources */,
 				A8506DD025BF5F5000509120 /* MissingInteger.cpp in Sources */,
